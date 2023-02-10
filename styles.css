@@ -1,0 +1,355 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0% auto;
+    padding: 0% auto;
+    background-image: url("img/fondo.png");
+}
+
+#logo{
+    margin-top: -50px;
+    margin-bottom: -35px;
+}
+
+a{
+    text-decoration: none;
+    color: #140b08;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+}
+
+#nav ol{
+    border-top: 2.3px solid;
+    border-bottom: 2.3px solid;
+    border-color: #bf0017;
+    list-style: none;
+    
+    padding: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 220px;
+    padding-right: 220px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#bienvenida{
+    color: #140b08;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 1903px;
+    margin: 0% auto;
+}
+
+#sub1{
+    margin-right: 49%;
+}
+
+#sub2{
+    margin-right: 51%;
+}
+
+#cursiva{
+    font-style: italic;
+    font-weight: normal;
+}
+
+#underline{
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1550px;
+}
+
+#platos{
+    display: flex;
+    height: 500px;
+    transition-duration: 3s;
+    box-shadow: 4px 4px 11px -6px rgba(0,0,0,1);
+    -webkit-box-shadow: 4px 4px 11px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 4px 4px 11px -6px rgba(0,0,0,1);
+}
+
+#platos:first-child{
+    background-image: url("img/plato-fuerte.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+
+    width: 53%;
+    
+}
+
+#platos:first-child a{
+    height: 500px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #86af37;
+    display: block;
+    text-align: center;
+    line-height: 450px;
+    margin: 0% auto;
+}
+
+#platos:first-child:hover{
+    transition: all 0.3s linear;
+    background-position: center;
+    background-size: 81.5%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    width: 53%;
+    height: 500px;
+}
+
+
+#platos:nth-child(2){
+    margin-top: 28px;
+    background-image: url("img/postre.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+
+    width: 53%;
+    height: 500px;
+}
+
+#platos:nth-child(2) a{
+    font-size: 50px;
+    font-weight: bold;
+    color: #86af37;
+    display: block;
+    text-align: center;
+    line-height: 450px;
+    margin: 0% auto;
+}
+
+#platos:nth-child(2):hover{
+    transition: all 0.3s linear;
+    margin-top: 28px;
+    background-position: center;
+    background-size: 81.5%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    width: 53%;
+    height: 500px;
+}
+
+#article{
+    margin: 0% auto;
+    width: 53%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#card{
+    width: 38%;
+    height: auto;
+    background-color: #e8e9e9;
+}
+
+#receta{
+    width: 100%;
+    height: 260px;
+}
+
+#titulo{
+    margin: 0% auto;
+    padding: 30px;
+}
+
+#relleno{
+    margin: 25px;
+}
+
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    background-color: #140b08;
+    color: white;
+}
+
+#btn{
+    width: 100%;
+    height: 30px;
+    background-color: #86af37;
+    border: #86af37;
+    color: white;
+}
+
+/*--------pagina de contacto-------*/
+#contacto{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form input{
+    margin-bottom: 10px;
+    
+    height: 30px;
+}
+
+#form textarea{
+    width: 340px; 
+}
+
+#btn_form{
+    width: 165px;
+}
+
+#icono{
+    margin-left: 10px;
+}
+
+#upper{
+    text-transform: uppercase;
+}
+
+#btn_form{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+#btn_form:first-child{
+    background-color: #86af37;
+    border: #86af37;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn_form:nth-child(2){
+    background-color: #edb000;
+    border: #edb000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*-------pagina de las recetas-------*/
+#img-receta{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#img-receta h1{
+    text-align: center;
+    background-color: #86af37;
+    margin-bottom: 0px;
+    height: 60px;
+    line-height: 54px;
+    color: #e8e9e9;
+}
+
+#bar{
+    margin: auto;
+    border: 2px solid #edb000;
+    background-color: #edb000;
+    width: 800px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+#bar ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bar li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+#bar p{
+    margin: 0px;
+}
+
+#ingredientes{
+    border: #86af37;
+    background-color: #86af37;
+    color: #e8e9e9;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#ingredientes p{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#elaboracion{
+    width: 50%;
+    margin: auto;
+}
+
+#elaboracion b{
+    font-size: 26px;
+    margin-right: 10px;
+}
